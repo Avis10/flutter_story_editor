@@ -50,10 +50,9 @@ class CaptionView extends StatelessWidget {
         Container(
           margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment., // Aligning children to the start and end of the row.
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.end, // Aligning children to the start and end of the row.
             children: [
-              mainAxisAlignment: MainAxisAlignment.end,
-              crossAxisAlignment: CrossAxisAlignment.end,
               GestureDetector(
                 onTap: onSaveClickListener, // Gesture detector to handle tap events on the save button.
                 child: Container(
