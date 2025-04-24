@@ -33,7 +33,7 @@ class CaptionView extends StatelessWidget {
           child: TextFormField(
             focusNode: focusNode, // Assigning focus node if provided.
             controller: captionController, // Using the provided TextEditingController for text editing.
-            style: const TextStyle(fontSize: 18), // Text style customization.
+            style: const TextStyle(fontSize: 18, color: Colors.white), // Text style customization.
             cursorColor: tealColor, // Cursor color set to teal for visual consistency.
             decoration: const InputDecoration(
                 border: InputBorder.none, // No visual border for the input field.
