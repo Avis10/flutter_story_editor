@@ -52,22 +52,8 @@ class CaptionView extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween, // Aligning children to the start and end of the row.
             children: [
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20), // Rounded corners for the container.
-                  color: darkGreenColor, // Background color set to dark green.
-                ),
-                child: const Row(
-                  children: [
-                    Icon(FontAwesomeIcons.circle, color: Colors.white,), // Icon for decorative purposes.
-                    SizedBox(
-                      width: 5,
-                    ),
-                    Text("Status (Contacts)", style: TextStyle(color: Colors.white),) // Text indicating the status.
-                  ],
-                ),
-              ),
+              
+              
               GestureDetector(
                 onTap: onSaveClickListener, // Gesture detector to handle tap events on the save button.
                 child: Container(
