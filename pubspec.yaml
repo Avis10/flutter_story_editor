@@ -28,7 +28,7 @@ dependencies:
   font_awesome_flutter: ^10.7.0
   material_design_icons_flutter: ^7.0.7296
   video_player: ^2.10.0
-  ffmpeg_kit_flutter_new: ^1.6.1
+  ffmpeg_kit_flutter: 6.0.3
 
 dev_dependencies:
   flutter_test:
