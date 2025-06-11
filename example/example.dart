@@ -7,6 +7,10 @@ import 'package:flutter_story_editor/flutter_story_editor.dart';
 import 'package:flutter_story_editor/src/controller/controller.dart';
 
 import 'package:path/path.dart' as path;
+void main() {
+  runApp(const FlutterStoryEditorExample());
+}
+
 
 class FlutterStoryEditorExample extends StatefulWidget {
   // final User? user;
