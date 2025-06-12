@@ -1,3 +1,7 @@
+## 0.0.2
+
+* Performance optimized, detailed documentation added, code improved.
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release of *Flutter Story Editor*
